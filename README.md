@@ -21,4 +21,5 @@ Publicly posted data on kaggle.com with statistics and demographic information o
 The resulting coefficients show that there is a dependence (though not strong) on all three variables, and it is in favor of younger players.
 
 **I decided to check how strong this dependence is using the logistic regression model.**
+
 5) Its results:
