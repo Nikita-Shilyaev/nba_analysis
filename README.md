@@ -23,8 +23,11 @@ The resulting coefficients show that there is a dependence (though not strong) o
 **I decided to check how strong this dependence is using the logistic regression model.**
 
 5) two predictors *'age'* and *'player_height'* participated in the model and were centered around their mean values.
+   
 - The intercept coefficient = 0.895, thus np.exp(0.895) = 2.45 - a player of average height and age relative to other players in the draft has a nearly 2.5 times higher chance of being selected.
+  
 - The coefficient on the predictor *'age'* = -0.378, and np.exp(-0.378) = 0.685. This means that if a player's age increases by 1 year, his chance of being selected decreases by 31%.
+  
 - The coefficient on the predictor *'player_height'* is expectedly very low = 0.038, and np.exp(0.038) = 1.039: player height has almost no effect on the chance of being selected.
 
 ### Conclusion:
