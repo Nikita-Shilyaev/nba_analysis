@@ -1,4 +1,4 @@
-# nba_analysis
+# How age and height affect on probability being selected on NBA Draft.
 ### Goal:
 To find out if there is a statistically significant effect of a player's height and age on whether he will be selected in the NBA draft, the round in which he will be selected, and the draft number at which he will be selected.
 
